@@ -10,24 +10,60 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <style>
-        * {
+    * {
             box-sizing: border-box;
+            width: 100%;
+            border: solid #5B6DCD 1px;
+            padding: 5px;
+            flex-direction: row;
+            /*box-sizing: content-box;
+            width: 100%;*/
         }
 
-        @media screen and (max-width: 700px) {
-
-            .row,
-            .navbar {
-                flex-direction: column;
-            }
-        }
+        body {
+    background-image: url("https://picserio.com/image/crop-320x568-79-0-493-875/4181858/, https://picserio.com/image/crop-320x568-79-0-493-875/4181858/);";
+}
     </style>
 </head>
 
 <body>
-    <h1>ToDo Application</h1>
-    <div class="wrapper">
-            <div class="box box1">
+    <h1>To Do Application</h1>
+    <!--<div class="container">
+           <div class="sidebar">-->
+        <div class="row">Add Task</div>
+        <div class="row">View Calendar</div>
+        <div class="row">Completed</div>
+        <div class="row">Delete</div>
+        <div class="row">Share/Send To</div>
+        <div class="row">Re-schedule</div>
+    </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="priority">
+            <div class="col-md">
+            </div>
+            <div class="row">
+                <div class="row">* Finish layout for To Do app *</div>
+                <div class="row">* Make doctors appointment *</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="tasklist">
+                <div class="col-md-5">
+                <div class="row-md-5 offset-md-5"> - Order six bottles of gin"</div>
+                <div class="row-md-5 offset-md-5"> - Call Ryan Reynolds back</div>
+                <div class="row"> - Post letter to solicitor</div>
+                <div class="row"> - Buy flowers for Mum</div>
+                <div class="row"> - Book haircut for birthday</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--<div class="container">
+        <div class="box box1">
               <div class="nested">a</div>
               <div class="nested">b</div>
               <div class="nested">c</div>
@@ -45,10 +81,8 @@
               <div class="nested">c</div>
               <div class="nested">d</div>
               <div class="nested">e</div>
-            </div>  
-           
-          </div>
-    
+            </div>  -->
+
 </body>
 
 </html>
