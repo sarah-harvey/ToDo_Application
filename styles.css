@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Courier New';
   margin: 5px;
   /*background:
   url("teal_background.jpg") bottom center no-repeat,
@@ -20,29 +20,42 @@ body {
 }
 
 .blue-rect {
-  height: 200px;
+  height: 350px;
   background-color: rgb(137, 214, 214);
-  border: 1px solid rgb(63, 15, 196);
-}
-.purple-rect {
-  height: 25px;
-  background-color: rgb(178, 194, 240);
-  border: 1px solid rgb(15, 122, 87);
+  border: 2px solid rgb(27, 83, 185);
 }
 .green-rect {
-  height: 100px;
-  background-color: rgb(137, 214, 214);
-  border: 1px solid greenyellow;
+  height: 25px;
+  background-color: rgb(193, 235, 224);
+  border: 1px solid rgb(78, 170, 141);
 }
-.red-rect {
-  height: 180px;
+.yellow-rect {
+  height: 80px;
   background-color: rgb(137, 214, 214);
-  border: 1px solid red;
+  border: 3px dashed rgb(240, 224, 7);
+}
+.brightgreen-rect {
+  height: 154px;
+  background-color: rgb(137, 214, 214);
+  border: 2px solid rgb(132, 231, 3);
+}
+.header {
+  background:  rgb(137, 214, 214);
+  border: 1px solid rgb(63, 15, 196);
+  text-align: center;
+  font-family: 'Courier New';
 }
 
+@media only screen and (max-width: 1000px) {
+  body {
+    grid-template-columns: 100%;
+    background-color: lightblue;
+  }
 
-
-
+  html {
+    background: url(teal_background.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
 
 
 
