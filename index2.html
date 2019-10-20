@@ -12,10 +12,10 @@
 
 
     <style>
-        html {
-            background-image: url(teal_background.jpeg) no-repeat center fixed;
+        /*body {
+            background-image: url("Users/minimetimes3/tech_returners/todo_application/blue_wish_background.jpg");
             background-size: cover;
-        }
+        }*/
     </style>
 
 </head>
@@ -29,20 +29,31 @@
 document.getElementById("demo").innerHTML = d</script>-->
     </header>
     <div class="container">
-        <div class="row">
+            <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Tools
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Delete</a>
+                      <a class="dropdown-item" href="#">Share</a>
+                      <a class="dropdown-item" href="#">Move </a>
+                      <a class="dropdown-item" href="#">Calendar</a>
+                    </div>
+                  </div>
+        <!--<div class="row">
             <div class="col-12 col-md-4 brightgreen-rect">
                 <div class="row">
                     <div class="col-2 col-md-12 green-rect">
-                        Add Task
+                            <button type="button" class="btn btn-outline-secondary">Add Task</button>
                     </div>
                     <div class="col-2 col-md-12 green-rect">
-                        View Calendar
+                            <button type="button" class="btn btn-outline-secondary">View Calendar</button>
                     </div>
                     <div class="col-2 col-md-12 green-rect">
-                        Completed
+                            <button type="button" class="btn btn-outline-secondary">Completed</button>
                     </div>
                     <div class="col-2 col-md-12 green-rect">
-                        Delete
+                            <button type="button" class="btn btn-outline-danger">Delete</button>
                     </div>
                     <div class="col-2 col-md-12 green-rect">
                         Share
@@ -50,9 +61,9 @@ document.getElementById("demo").innerHTML = d</script>-->
                     <div class="col-2 col-md-12 green-rect">
                         Move To
                     </div>
-                </div>
+                </div>-->
             </div>
-            <div class="col-md-4 yellow-rect">
+            <div class="col yellow-rect">
                 Priority
                 <div class="row">
                     <div class="col-12 col-md-12 green-rect">
@@ -65,7 +76,7 @@ document.getElementById("demo").innerHTML = d</script>-->
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 offset-md-4 blue-rect">
+            <div class="col-md-4 offset-md-12 blue-rect">
                 <div class="row">
                     <div class="col-12 green-rect">
                         - Order six bottles of gin
